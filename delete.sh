@@ -2,7 +2,7 @@
  i=`pwd`
  Watched_Directory=$i
  echo "directory name is="$Watched_Directory
- #Max_Directory_size=$1
+
  
  Directory_Size=$( du -sk "$Watched_Directory" | cut -f1 )
  echo "directory size is ="$Directory_Size
